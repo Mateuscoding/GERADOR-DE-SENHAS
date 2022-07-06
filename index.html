@@ -5,35 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-
     <title>Gerador de Senhas</title>
 </head>
 <body>
-    
     <div class="app">
-        <h1>GERADOR DE SENHA</h1>
 
+        <h1>GERADOR DE SENHA</h1>
+        
         <form action="#">
-            <label for="#">Informe o tamanho de seus caracteres
-                <input id="tamanho-senha" type="number" name="" id="">
+            <label for="#">Informe o tamanho de seus caracteres 
+                <input id="length-password" type="number" name="" id="">
             </label>
             <br><br>
-            <input id="gerar" type="button" value="GERAR">
+            <input id="generate" type="button" value="GERAR">
         </form>
+        
         <br><br>
 
-        <div id="divSenha" class="of">
+        <div id="response-container" class="of">
             <p>A sua senha gerada foi:</p>
             <br>
-            <p id="senha">  </p>
-            <button id="copiar">Copiar</button>
+            <p id="password">  </p>
+            <button id="copy">Copiar</button>
         </div>
 
-
     </div>
-
-
-        <script src="./js/script.js"></script>
+        
+    <script src="./js/script.js"></script>
 
 </body>
 </html>
